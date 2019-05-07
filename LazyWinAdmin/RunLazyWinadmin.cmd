@@ -1,3 +1,3 @@
-@echo on
+@echo off
 
-PowerShell.exe -ExecutionPolicy Bypass -Command "& 'C:\Users\lvelikov\Desktop\LWA_Testing\LazyWinAdmin-PVA\LazyWinAdmin.ps1'"
+start "" PowerShell.exe -noprofile -WindowStyle hidden -ExecutionPolicy Bypass -Command "& '%~dp0LazyWinAdmin.ps1'"
